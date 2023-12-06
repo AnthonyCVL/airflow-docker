@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "id": "1",
+            "name": "tarea_1",
+            "tipo": 1,
+            "predecessor": []
+        },
+        {
+            "id": "2",
+            "name": "tarea_2",
+            "tipo": 1,
+            "predecessor": []
+        },
+        {
+            "id": "3",
+            "name": "tarea_3",
+            "tipo": 2,
+            "predecessor": [1]
+        },
+        {
+            "id": "4",
+            "name": "tarea_4",
+            "tipo": 2,
+            "predecessor": [2]
+        },
+        {
+            "id": "5",
+            "name": "tarea_5",
+            "tipo": 3,
+            "predecessor": [3,4]
+        }        
+    ]
+}
